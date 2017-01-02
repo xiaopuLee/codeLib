@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Test;
+
+message Config
+{
+    string name = 1;
+    int32 number = 2;
+    bool  reuse = 3;
+    repeated float elem = 4;
+}
